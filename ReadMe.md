@@ -124,7 +124,7 @@ Configure the system by editing `inputs/chatcfd_config.json`:
 
 Start the ChatCFD interface:
 ```bash
-streamlit run src/main_run_chatcfd.py
+streamlit run src/chatbot.py
 ```
 
 The interface should look similar to:
