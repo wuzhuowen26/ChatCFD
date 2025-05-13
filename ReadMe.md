@@ -1,4 +1,4 @@
-# # ChatCFD: An AI-Powered Automated CFD Agent System
+# ChatCFD: An AI-Powered Automated CFD Agent System
 
 ChatCFD is an intelligent CFD agent that helps users run CFD simulations directly from academic papers. Through a conversational chat interface, users can:
 - Upload and specify which CFD case from a paper they want to simulate
@@ -10,7 +10,7 @@ The system automatically interprets the paper's specifications, configures the O
 ![ChatCFD Overview](figures/chatcfd_overview_4.png)
 
 ## Table of Contents
-- [# ChatCFD: An AI-Powered Automated CFD Agent System](#-chatcfd-an-ai-powered-automated-cfd-agent-system)
+- [ChatCFD: An AI-Powered Automated CFD Agent System](#chatcfd-an-ai-powered-automated-cfd-agent-system)
   - [Table of Contents](#table-of-contents)
   - [Key Features](#key-features)
   - [System Requirements](#system-requirements)
