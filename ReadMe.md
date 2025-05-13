@@ -24,8 +24,6 @@ The system automatically interprets the paper's specifications, configures the O
   - [Architecture](#architecture)
   - [Usage](#usage)
   - [Performance](#performance)
-  - [Support](#support)
-  - [License](#license)
   - [Citation](#citation)
 
 ## Key Features
@@ -185,14 +183,6 @@ ChatCFD has demonstrated:
 - 🎯 60-80% operational success rate for incompressible and compressible CFD cases
 - 🛡️ Robust error handling and correction capabilities
 
-## Support
-
-For detailed usage instructions and support, please refer to the documentation or contact the development team.
-
-## License
-
-[Add license information here]
-
 ## Citation
 
-[Add citation information here]
+[Add citation information here] fnae, later
