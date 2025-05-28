@@ -1,16 +1,15 @@
-# ChatCFD: An AI-Powered Automated CFD Agent System
+# # ChatCFD: An End-to-End CFD Agent with Domain-Specific Structured Thinking
 
-ChatCFD is an intelligent CFD agent that helps users run CFD simulations directly from academic papers. Through a conversational chat interface, users can:
+ChatCFD is a LLM-driven pipeline that automates computational fluid dynamics (CFD) workflows within the OpenFOAM framework, enabling users to configure and execute complex simulations from natural language prompts or published literature with minimal prior expertise. Through a conversational chat interface, users can:
 - Upload and specify which CFD case from a paper they want to simulate
 - Provide the corresponding mesh files for the simulation
-- Get step-by-step guidance through the entire simulation process
 
 The system automatically interprets the paper's specifications, configures the OpenFOAM case, and handles the simulation setup, making CFD more accessible to users without extensive domain expertise.
 
-![ChatCFD Overview](figures/chatcfd_overview_4.png)
+![ChatCFD Overview](figures/fig1.illustration2.png)
 
 ## Table of Contents
-- [ChatCFD: An AI-Powered Automated CFD Agent System](#chatcfd-an-ai-powered-automated-cfd-agent-system)
+- [# ChatCFD: An End-to-End CFD Agent with Domain-Specific Structured Thinking](#-chatcfd-an-end-to-end-cfd-agent-with-domain-specific-structured-thinking)
   - [Table of Contents](#table-of-contents)
   - [Key Features](#key-features)
   - [System Requirements](#system-requirements)
@@ -21,7 +20,6 @@ The system automatically interprets the paper's specifications, configures the O
     - [Step 1: Environment Setup](#step-1-environment-setup)
     - [Step 2: Configuration](#step-2-configuration)
     - [Step 3: Launch the Interface](#step-3-launch-the-interface)
-  - [Architecture](#architecture)
   - [Usage](#usage)
   - [Performance](#performance)
   - [Citation](#citation)
@@ -129,44 +127,6 @@ The interface should look similar to:
 ![ChatCFD Interface](figures/user_interface_demo.png)
 
 Then the user should upload the pdf file, specify the CFD case, and upload the CFD mesh file following the guidance of ChatCFD.
-
-## Architecture
-
-![ChatCFD Architecture](figures/chatcfd_framework_4.png)
-
-ChatCFD implements a comprehensive five-stage workflow to automate CFD simulations:
-
-1. **Interacting** 🗣️
-   - Intuitive interface for uploading papers and mesh files
-   - Natural language interaction for case specification
-   - Guided user experience for simulation setup
-
-2. **Processing data** 📊
-   - Systematic analysis of OpenFOAM tutorial cases
-   - Structured knowledge base construction
-   - Parameter cataloging (solvers, turbulence models, dependencies)
-
-3. **Initiating case files** ⚙️
-   - Automated configuration file generation
-   - Research paper analysis for parameter extraction
-   - Comprehensive case setup based on publication specifications
-
-4. **Running the case** 🚀
-   - Mesh file conversion to OpenFOAM format
-   - Optimized solver execution
-   - Real-time monitoring and logging
-
-5. **Correcting case files** 🔧
-   - Intelligent error detection and management
-   - Four-category error handling:
-     - Dimensional inconsistencies
-     - Missing configurations
-     - Persistent errors
-     - Common setup issues
-   - Dual retrieval system for error resolution
-   - Iterative refinement (up to 30 iterations)
-
-The system employs a reflection mechanism between execution and correction stages, ensuring robust error handling while maintaining computational efficiency.
 
 ## Usage
 
