@@ -1,4 +1,4 @@
-# # ChatCFD: An End-to-End CFD Agent with Domain-Specific Structured Thinking
+# ChatCFD: An End-to-End CFD Agent with Domain-Specific Structured Thinking
 
 ChatCFD is a LLM-driven pipeline that automates computational fluid dynamics (CFD) workflows within the OpenFOAM framework, enabling users to configure and execute complex simulations from natural language prompts or published literature with minimal prior expertise. Through a conversational chat interface, users can:
 - Upload and specify which CFD case from a paper they want to simulate
@@ -9,7 +9,7 @@ The system automatically interprets the paper's specifications, configures the O
 ![ChatCFD Overview](figures/fig1.illustration2.png)
 
 ## Table of Contents
-- [# ChatCFD: An End-to-End CFD Agent with Domain-Specific Structured Thinking](#-chatcfd-an-end-to-end-cfd-agent-with-domain-specific-structured-thinking)
+- [ChatCFD: An End-to-End CFD Agent with Domain-Specific Structured Thinking](#chatcfd-an-end-to-end-cfd-agent-with-domain-specific-structured-thinking)
   - [Table of Contents](#table-of-contents)
   - [Key Features](#key-features)
   - [System Requirements](#system-requirements)
