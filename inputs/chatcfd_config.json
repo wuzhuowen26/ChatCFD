@@ -3,7 +3,7 @@
     "DEEPSEEK_V3_BASE_URL" : "https://ark.[LLM-EndPoint]",
     "DEEPSEEK_V3_MODEL_NAME" : "[LLM_model_name]",
     "V3_temperature":0.7,
-    "DEEPSEEK_R1_KEY" : "86db3c54-f529-4c20-8f9a-4211b1235964",
+    "DEEPSEEK_R1_KEY" : "86db3c54-f529-[LLM-KEY]",
     "DEEPSEEK_R1_BASE_URL" : "https://ark.cn-[LLM-EndPoint]",
     "DEEPSEEK_R1_MODEL_NAME" : "[LLM_model_name]",
     "R1_temperature":0.9,
