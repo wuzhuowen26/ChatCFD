@@ -145,4 +145,12 @@ ChatCFD has demonstrated:
 
 ## Citation
 
-[Add citation information here] fnae, later
+```
+@misc{fan2025chatcfd,
+      title={ChatCFD: an End-to-End CFD Agent with Domain-specific Structured Thinking}, 
+      author={E Fan and Weizong Wang and Tianhan Zhang},
+      year={2025},
+      eprint={2506.02019},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
