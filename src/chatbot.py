@@ -12,6 +12,7 @@ from datetime import datetime
 import config, case_file_requirements, preprocess_OF_tutorial, set_config, main_run_chatcfd, qa_modules
 import pathlib
 import os
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
 
 general_prompt = ''
